@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .center {
     display: flex;
     flex-direction: column;
@@ -11,16 +14,21 @@
 }
 
 
-.inside
-{
+.inside {
     border: 2px solid black;
     padding: 15px;
     margin: 5px;
     width: 55px;
     height: 55px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-.form
-{
+.form {
     border: 2px solid black;
+}
+
+body
+{
+    height: 745px;
+    background: url('../../public/background.jpg') no-repeat center center/cover ;
 }

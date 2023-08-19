@@ -1,12 +1,22 @@
 import Navbar from './components/Navbar';
 import Calci from './components/Calci';
+import About from './components/About';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Calci/>
-    </div>
+      <Routes>
+        <Route exact path='/' element={<Calci/>}/>
+        <Route exact path='/about' element={<About/>}/>
+      </Routes>
+    </Router>
+
   );
 }
 

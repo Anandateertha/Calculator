@@ -1,0 +1,11 @@
+.container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
